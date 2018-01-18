@@ -2,4 +2,4 @@
 
 Web repo for class assignments
 
-Greta Crockettmm
+Greta Crockett
