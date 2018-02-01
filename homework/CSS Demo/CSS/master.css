@@ -1,0 +1,49 @@
+h1 {
+    color: red;
+    font-size:32px;
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 4px;
+    margin-bottom: 2px
+  }
+
+
+  body {
+    font-family: 'Rajdhani', sans-serif;
+  }
+  a {
+    color: green;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    text-decoration: underline;
+  }
+.venus:hover {
+  background: purple;
+}
+  p {
+    background: pink;
+    margin-top: 0;
+    font-size: 18px;
+  }
+
+  .venus {
+      background: brown;
+      color: white;
+  }
+
+
+.demo {
+  background: aqua;
+  width: 100px;
+  height: 200px;
+  padding: 20px;
+  margin-left: 30px;
+  margin-top: 20px;
+  border-radius: 2px dashed black;
+  boreder-raduis: 60px
+  }
+
+  .demo:hover {
+    box-shadow:8px 8px 8px #000;
+    }
