@@ -1,0 +1,43 @@
+
+
+.sample {
+  color: red;
+  font-size: 22px;
+  width: 100%;
+  height: 200px
+  background: orange;
+}
+.demo {
+  color: red;
+  width: 100px;
+}
+
+}
+@media only screen and (min-width: 400px) {
+  .sample {
+    color: blue;
+    font-size: 30px;
+    width: 90%;
+    height: 100px;
+    background:Orange;
+    font-size:22px;
+
+    }
+}
+}
+@media only screen and (min-width: 600px) {
+  .sample {
+    background: Blue;
+    border: Orange;
+    border-style: dotted;
+    font-size: 40px;
+
+  }
+}
+@media only screen and (min-width: 800px) {
+  .sample {
+    color: green;
+    font-size:48px;
+    back-ground: green;
+  }
+}
