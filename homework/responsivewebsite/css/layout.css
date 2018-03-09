@@ -1,266 +1,252 @@
-
-}
 @media only screen and (min-width: 400px)
-body{
-padding-top: 20px;
-background-color: #white;
+body {
+  padding-top: 20px;
 }
 
 .image1 {
-
-    height:300px;
-    width:200px;
-    padding:0 0 20px 0;
+  height: 300px;
+  width: 200px;
+  padding: 0 0 20px 0;
 }
 
-
-.image2{
-    height:300px;
-    width:200px;
-    margin-left: 120px;
+.image2 {
+  height: 300px;
+  width: 200px;
+  margin-left: 120px;
 }
 
-.style1{
-    height: 10px;
-	   border: 0;
-	    box-shadow: 0 10px 10px -10px black inset;
+.style1 {
+  height: 10px;
+  border: 0;
+  box-shadow: 0 10px 10px -10px black inset;
 }
 
-.image3{
-    height:100px;
-    width:100px;
-    padding-left: 150px;
+.image3 {
+  height: 100px;
+  width: 100px;
+  padding-left: 150px;
 }
 
-.image4{
-    height:400px;
-    width:350px;
-    display:block;
-    margin: 0 auto;
+.image4 {
+  height: 400px;
+  width: 350px;
+  display: block;
+  margin: 0 auto;
 }
 
-.modifyButton{
-    border-radius: 30px;
-    margin-left: 50px;
-    display:block;
-    margin: 0 auto;
+.image5 {
+  height: 400px;
+  width: 350px;
+  border-radius: 100px;
+  margin: 0 auto;
+  display: block;
 }
 
-.image5{
-    height:400px;
-    width:350px;
-    border-radius: 100px;
-    margin:0 auto;
-    display:block;
+.image6 {
+  height: 400px;
+  width: 350px;
+  border-radius: 100px;
+  margin: 0 auto;
+  display: block;
 }
 
-.image6{
-    height:400px;
-    width:350px;
-    border-radius: 100px;
-    margin:0 auto;
-    display:block;
+.number {
+  font-size: 30px;
 }
 
-.number{
-    font-size:30px;
+.style2 {
+  height: 2px;
+  margin-left: 20px;
 }
 
-.style2{
-    height:2px;
-    margin-left: 20px;
+.icon {
+  text-align: center;
 }
 
-.icon{
-    text-align: center;
+.pro {
+  font-size: 115px;
+  text-align: center;
+  padding-bottom: 150px;
+  font-family: 'Dancing Script', cursive;
 }
 
-
-.pro{
-    font-size: 115px;
-    text-align: center;
-    padding-bottom: 150px;
-    font-family: 'Dancing Script', cursive;
+.bg-black {
+  background-color: white;
 }
 
-.bg-black{
-    background-color: white;
 }
-    }
+
 }
+
 }
-@media only screen and (min-width: 600px)
-body{
-padding-top: 20px;
-background-color: #white;
+
+@media only screen and (min-width: 600px) body {
+  padding-top: 20px;
+  background-color: white;
 }
 
 .image1 {
-
-    height:300px;
-    width:200px;
-    padding:0 0 20px 0;
+  height: 300px;
+  width: 200px;
+  padding: 0 0 20px 0;
 }
 
-
-.image2{
-    height:300px;
-    width:200px;
-    margin-left: 120px;
+.image2 {
+  height: 300px;
+  width: 200px;
+  margin-left: 120px;
 }
 
-.style1{
-    height: 10px;
-	   border: 0;
-	    box-shadow: 0 10px 10px -10px black inset;
+.style1 {
+  height: 10px;
+  border: 0;
+  box-shadow: 0 10px 10px -10px black inset;
 }
 
-.image3{
-    height:100px;
-    width:100px;
-    padding-left: 150px;
+.image3 {
+  height: 100px;
+  width: 100px;
+  padding-left: 150px;
 }
 
-.image4{
-    height:400px;
-    width:350px;
-    display:block;
-    margin: 0 auto;
+.image4 {
+  height: 400px;
+  width: 350px;
+  display: block;
+  margin: 0 auto;
 }
 
-.modifyButton{
-    border-radius: 30px;
-    margin-left: 50px;
-    display:block;
-    margin: 0 auto;
+.modifyButton {
+  border-radius: 30px;
+  margin-left: 50px;
+  display: block;
+  margin: 0 auto;
 }
 
-.image5{
-    height:400px;
-    width:350px;
-    border-radius: 100px;
-    margin:0 auto;
-    display:block;
+.image5 {
+  height: 400px;
+  width: 350px;
+  border-radius: 100px;
+  margin: 0 auto;
+  display: block;
 }
 
-.image6{
-    height:400px;
-    width:350px;
-    border-radius: 100px;
-    margin:0 auto;
-    display:block;
+.image6 {
+  height: 400px;
+  width: 350px;
+  border-radius: 100px;
+  margin: 0 auto;
+  display: block;
 }
 
-.number{
-    font-size:30px;
+.number {
+  font-size: 30px;
 }
 
-.style2{
-    height:2px;
-    margin-left: 20px;
+.style2 {
+  height: 2px;
+  margin-left: 20px;
 }
 
-.icon{
-    text-align: center;
+.icon {
+  text-align: center;
 }
 
-
-.pro{
-    font-size: 115px;
-    text-align: center;
-    padding-bottom: 150px;
-    font-family: 'Dancing Script', cursive;
+.pro {
+  font-size: 115px;
+  text-align: center;
+  padding-bottom: 150px;
+  font-family: 'Dancing Script', cursive;
 }
 
-.bg-black{
-    background-color: white;
+.bg-black {
+  background-color: white;
 }
-  }
+
 }
-@media only screen and (min-width: 800px)
-body{
-padding-top: 20px;
-background-color: #white;
+
+}
+
+@media only screen and (min-width: 800px) body {
+  padding-top: 20px;
+  background-color: white;
+
 }
 
 .image1 {
-
-    height:300px;
-    width:200px;
-    padding:0 0 20px 0;
+  height: 300px;
+  width: 200px;
+  padding: 0 0 20px 0;
 }
 
-
-.image2{
-    height:300px;
-    width:200px;
-    margin-left: 120px;
+.image2 {
+  height: 300px;
+  width: 200px;
+  margin-left: 120px;
 }
 
-.style1{
-    height: 10px;
-	   border: 0;
-	    box-shadow: 0 10px 10px -10px black inset;
+.style1 {
+  height: 10px;
+  border: 0;
+  box-shadow: 0 10px 10px -10px black inset;
 }
 
-.image3{
-    height:100px;
-    width:100px;
-    padding-left: 150px;
+.image3 {
+  height: 100px;
+  width: 100px;
+  padding-left: 150px;
 }
 
-.image4{
-    height:400px;
-    width:350px;
-    display:block;
-    margin: 0 auto;
+.image4 {
+  height: 400px;
+  width: 350px;
+  display: block;
+  margin: 0 auto;
 }
 
-.modifyButton{
-    border-radius: 30px;
-    margin-left: 50px;
-    display:block;
-    margin: 0 auto;
+.modifyButton {
+  border-radius: 30px;
+  margin-left: 50px;
+  display: block;
+  margin: 0 auto;
 }
 
-.image5{
-    height:400px;
-    width:350px;
-    border-radius: 100px;
-    margin:0 auto;
-    display:block;
+.image5 {
+  height: 400px;
+  width: 350px;
+  border-radius: 100px;
+  margin: 0 auto;
+  display: block;
 }
 
-.image6{
-    height:400px;
-    width:350px;
-    border-radius: 100px;
-    margin:0 auto;
-    display:block;
+.image6 {
+  height: 400px;
+  width: 350px;
+  border-radius: 100px;
+  margin: 0 auto;
+  display: block;
 }
 
-.number{
-    font-size:30px;
+.number {
+  font-size: 30px;
 }
 
-.style2{
-    height:2px;
-    margin-left: 20px;
+.style2 {
+  height: 2px;
+  margin-left: 20px;
 }
 
-.icon{
-    text-align: center;
+.icon {
+  text-align: center;
 }
 
-
-.pro{
-    font-size: 115px;
-    text-align: center;
-    padding-bottom: 150px;
-    font-family: 'Dancing Script', cursive;
+.pro {
+  font-size: 115px;
+  text-align: center;
+  padding-bottom: 150px;
+  font-family: 'Dancing Script', cursive;
 }
 
-.bg-black{
-    background-color: white;
+.bg-black {
+  background-color: white;
 }
-  }
