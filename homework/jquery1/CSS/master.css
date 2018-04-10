@@ -1,0 +1,42 @@
+div {
+    width: 500px;
+ background-color: white;
+ height: 500px;
+}
+
+body {
+  background-color: yellow;
+}
+nav {
+  max-width: 500px;
+  display: inline-block;
+    list-style-type: none;
+}
+
+img {
+  max-width: 300px;
+  max-height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+
+}
+
+h1 {
+  max-width: 500px;
+  text-align: center;
+
+}
+
+.hide {
+display: none;
+}
+
+h2{
+  text-align: center;
+}
+P {
+  text-align: center;
+  max-width: 500px;
+}

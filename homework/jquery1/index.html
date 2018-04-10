@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Basic Yoga Flow</title>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="CSS/master.css">
+
+<body>
+  <center>
+    <div class="content">
+      <h1 id="title">Basic Yoga Flow</h1>
+      <h2 id="welcome"><hr>The word yoga comes from the Sanskrit word yuj, which means union of the individual and universal consciousness.Yoga is not just exercise, it is how skillfully we communicate, and act in any given situation. So here, yoga is described more as a mind skill.This basic yoga flow will help you be more present throughout your day.
+<br> Click the next step to begin.</h2>
+      <img src="images/welcome.jpg" width="300" alt="relax" id="pup">
+
+
+
+      <ul id="stepone" class=hide>
+        <li>Come onto the hands and knees with your wrists underneath your shoulders and your knees underneath your hips.</li>
+        <li>Inhale as you tuck your toes under your heels. Then exhale to lift your hips, coming into the classic upside-down-V shape called Downward Facing Dog.</li>
+        <li> Spread your fingers wide, and create a straight line between your middle fingers and elbows. Work on straightening your legs and lowering your heels toward the ground. Relax your head between your arms, and direct your gaze through your legs or
+          up toward your belly button.</li>
+        <li> Breathe deeply for five breaths.</li>
+      </ul>
+
+
+
+      <ul id="steptwo" class=hide>
+        <li>From Down Dog, inhale to step your right foot forward between your hands. Turn your left heel in, press into your feet, and lift your torso up.</li>
+        <li>Raise your arms up, and press your palms together. Draw your shoulder blades down toward your hips, and gaze up toward your hands.</li>
+        <li>Stay here for five breaths. </li>
+      </ul>
+
+
+
+      <ul id="stepthree" class=hide>
+        <li>Hold your legs in Warrior 1 position, and on an exhale, cross your left elbow over your right thigh.</li>
+        <li>Press your palms together firmly, and push into your bottom arm to lengthen the spine and increase the twist.</li>
+        <li> Gaze over your right shoulder, breathing for five full breaths.</li>
+      </ul>
+
+
+
+      <ul id="stepfour" class=hide>
+        <li>Lie on your back, and close your eyes. In order to relax and open your body fully, extend your arms a few inches away from the body, with your palms facing up.</li>
+        <li>Bring about 15 to 20 inches between your feet, allowing your feet to fall open with your toes pointing out. Actively shrug your shoulders and shoulder blades down toward your hips. Lengthen through your spine as much as possible, and try to press
+          the small of your back into the floor.</li>
+        <li>After you've found a comfortable position, enjoy the stillness for five to 10 minutes.</li>
+      </ul>
+
+    </div>
+
+
+    <nav>
+      <button id="begin">Step One</button>
+      <button id="step-two">Step Two</button>
+      <button id="step-three">Step Three</button>
+      <button id="step-four">Step Four</button>
+      <button id="done">Repeat on the other side!</button>
+    </nav>
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $("#step-two").hide();
+        $("#step-three").hide();
+        $("#step-four").hide();
+        $("p").hide();
+        $("#done").hide();
+      });
+      $("#begin").click(function() {
+        $("#title").html("Step One");
+        $("#step-two").show();
+        $("#step1").show()
+        $("#begin").hide();
+        $("#welcome").hide();
+        $("#step-three").hide();
+        $("#pup").attr("src", "images/1.jpg");
+      });
+      $("#step-two").click(function() {
+        $("#title").html("Step Two");
+        $("#step-three").show();
+        $("#step2").show();
+        $("#step-two").hide();
+        $("#step1").hide();
+        $("#pup").attr("src", "images/2.jpg");
+      });
+      $("#step-three").click(function() {
+        $("#title").html("Step Three");
+        $("#step-four").show();
+        $("#step3").show();
+        $("#step2").hide();
+        $("#step-three").hide();
+        $("#pup").attr("src", "images/3.jpg");
+      });
+      $("#step-four").click(function() {
+        $("#title").html("Step Four");
+        $("#step4").show();
+        $("#step-four").hide();
+        $("#step3").hide();
+        $("#step-five").show();
+        $("#done").show();
+        $("#pup").attr("src", "images/4.jpg");
+      });
+      $("#done").click(function() {
+        $("#title").html("Congrats!")
+        $("#done").hide();
+        $("#step-five").hide();
+        $("#step4").hide();
+        $("#pup").attr("src", "images/finish.jpg")
+      });
+    </script>
+  </center>
+</body>
+
+</html>
